@@ -1,3 +1,5 @@
+//Ignore servo commands added for digital testing purposes.//
+
 let Status = 0
 basic.forever(function () {
     if (input.soundLevel() >= 100 && input.soundLevel() < 200) {
